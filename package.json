@@ -1,0 +1,11 @@
+{
+  "name": "axion-crm",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "check": "node --check assets/app.js && node --check assets/integration.js",
+    "test:dom": "python3 scripts/run_frontend_tests.py"
+  },
+  "devDependencies": {"jsdom": "31.0.0"},
+  "engines": {"node": ">=24"}
+}
